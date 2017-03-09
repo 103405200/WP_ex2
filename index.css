@@ -1,0 +1,115 @@
+header{
+	text-align: center;
+}
+nav{
+	text-align: center;
+	width: 100%;
+	margin:  0;
+	background-color: #444444;
+}
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 20px 40px;
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+}
+
+nav ul li a:hover{
+	color: black;
+	background-color: #CC0000
+}
+
+nav ul li:hover:nth-child(even){
+	background-color: #CC0000;
+} 
+
+nav ul li:hover:nth-child(odd){
+	background-color: #0000CC;
+}
+
+.content{
+	width: 70%;
+	float: left;
+}
+
+#biography{
+	margin-left: 50px;
+}
+#far{
+	float: right;
+	width: 350px;
+	border-radius: 5px;
+	margin: 50px 20px auto 20px;  
+}
+
+#allILove{
+	margin: 50px 0 auto 50px;
+}
+#cat{
+	float: left;
+	width: 350px;
+	border-radius: 5px;
+	margin: auto 50px auto auto; 
+}
+
+#experience{
+	margin: 210px auto auto 50px;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	padding-top: 2%;
+	padding-bottom: 80%;
+	background-color: #FFFCEC;
+	border-radius: 5px;
+}
+
+#community{
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 70%;
+}
+#community a:link{
+	color: #0000FF;
+}
+#community a:visited{
+	color: #444444;
+}
+#community .link:nth-child(even){
+	background-color: #dddddd;
+}
+#community .link:nth-child(odd){
+	background-color: #aaaaaa;
+}
+
+#contactMe{
+	width: 70%;
+	margin-left: 50px;
+}
+#contactMe input[type=radio]:checked +label{
+	font-size: 2em;
+}
+#contactMe input[type=text]:focus{
+	background-color: #FFFFBB;
+}
+#contactMe input[type=email]:focus{
+	background-color: #FFFFBB;
+}
+#contactMe textarea:focus{
+	background-color: #FFFFBB;
+}
+#contactMe input[type=submit]{
+	opacity: 0.3;
+}
+#contactMe textarea:focus ~input{
+	opacity: 1;
+}
