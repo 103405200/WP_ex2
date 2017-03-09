@@ -108,8 +108,10 @@ aside{
 	background-color: #FFFFBB;
 }
 #contactMe input[type=submit]{
+	pointer-events: none;
 	opacity: 0.3;
 }
-#contactMe textarea:focus ~input{
+#contactMe input[type=email]:valid~input[type=submit]:enabled {
+	pointer-events: auto;
 	opacity: 1;
 }
